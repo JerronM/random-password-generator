@@ -50,7 +50,7 @@ header {
   text-align: center;
   cursor: pointer;
 }
-/*The Area where the newly generated password appears*/
+/*The area where the newly generated password appears*/
 #password {
   border: none;
   display: block;
