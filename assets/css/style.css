@@ -1,72 +1,64 @@
-
-
-html,
-body,
-.wrapper {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
+/*Body color and font for entire page*/
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-color: #ffffff;
 }
-
+/**/
 .wrapper {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
 }
+/**/
 
 header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: black;
+  color: #3B4954;
 }
 
-h1, h2 {
-  font-weight: 500;
-}
+/**/
 
 .card {
   background-color:white;
   border-radius: 5px;
-  border-width: 10px;
-  color: black;
+  border-width: 1px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+  color: #3B4954;
   font-size: 18px;
   margin: 0 auto;
   max-width: 800px;
   padding: 30px 40px;
 }
+/**/
 
 .card-body {
   min-height: 100px;
 }
+/**/
 
 .card-footer {
   text-align: center;
 }
 
+/**/
 
-.btn {
+.theButton {
   border: none;
   background-color: darkred;
   border-radius: 25px;
   color: white;
   display: inline-block;
-  font-size: 22px;
-  line-height: 22px;
-  margin: 16px 16px 16px 20px;
-  padding: 14px 34px;
+  font-size: 20px;
+  line-height: 20px;
+  margin: 15px 15px 15px 20px;
+  padding: 15px 30px;
   text-align: center;
+  cursor: pointer;
 }
 
-.float-right {
-  float: right;
-}
-
+/**/
 #password {
   border: none;
   display: block;
@@ -79,8 +71,8 @@ h1, h2 {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  border: 2px dashed #c0c7cf;
+  border: 2px dashed black;
   border-radius: 6px;
-  resize: none;
   overflow: auto;
 }
+
