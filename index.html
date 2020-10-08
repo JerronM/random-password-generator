@@ -1,36 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!--
-    This html program generates a secure password based on criteria selected by the user.
-    Initial ideas for this html/css/javascript came from the Youtube https://www.youtube.com/watch?v=fOvYE1i_IiY and https://www.youtube.com/watch?v=OCVgC2TEJwI
-    Discussions with other members of the team helped me to take it one step further.  To make use of cards.
-
--->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Description" content="Enter your description here"/>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Password Generator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Random Password Generator</title>
 </head>
-
 <body>
     <main class="container container-fluid">
         <div class="wrapper">
             <header>
+                <!--Page Header-->
                 <h1>Password Generator</h1>
             </header>
-
+            <!--Card where password is generated-->
             <div class="card">
                 <div class="card-header">
                     <h2>Generate a Password</h2>
                 </div>
-
+                <!--Area where password is displayed once generated-->
                 <div class="card-body">
                     <textarea
                         readonly
@@ -39,16 +28,16 @@
                         aria-label="Generated Password"
                     ></textarea>
                 </div>
-                
+                <!--Button to generate password-->
                 <div class="card-footer">
-                    <button id="generate" class="btn">Generate Password</button>
+                    <button id="generate" class="theButton">Generate Password</button>
                 </div>
             </div>
         </div>
     </main>
-
+    <!--Link to Javascript file-->
     <script src="script.js"></script>
-
+    <!--Bootstrap Javascript-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
