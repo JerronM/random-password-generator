@@ -29,14 +29,14 @@ function generatePassword() {
             }
         }
     } 
-    alert(`Your password will have ${psdLength} characters`);
+    alert(`You have selected ${psdLength} characters`);
     //Promt user to accept password criteria
     var psdSpecialChar = confirm("Your password must include special characters");
     var psdNumber = confirm("Your password must include numeric characters");    
     var psdLowerCase = confirm("Your password must include lowercase characters");
     var psdUpperCase = confirm("Your password must include uppercase characters");
     while(psdUpperCase === false && psdLowerCase === false && psdSpecialChar === false && psdNumericChar === false) {
-        alert("You must choose at least one parameter");
+        alert("You must accept all password criteria");
         var psdSpecialChar = confirm("Your password must include special characters");
         var psdNumber = confirm("Your password must include numeric characters");    
         var psdLowerCase = confirm("Your password must include lowercase characters");
